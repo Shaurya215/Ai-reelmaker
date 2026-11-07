@@ -1,0 +1,83 @@
+# PLAN.md — Sub-phase Index
+
+- [ ] 0a Python 3.11
+- [ ] 0b Install FFmpeg
+- [ ] 0c Folder structure
+- [ ] 0d FFmpeg command: 1 image → 5s MP4
+- [ ] 1a Function that accepts an image path and...
+- [ ] 1b Convert HEIC/WebP/JPEG to PNG
+- [ ] 1c Fix EXIF rotation
+- [ ] 1d Quality checks: min 800px
+- [ ] 1e Product details schema
+- [ ] 1f Output a clean `product.json`
+- [ ] 2a LLM adapter with one provider
+- [ ] 2b Retry with backoff
+- [ ] 2c Prompt that produces the brief: hook
+- [ ] 2d Force strict JSON and validate with...
+- [ ] 2e Claim checker: every claim must exist...
+- [ ] 2f Language support
+- [ ] 3a Piper TTS for English
+- [ ] 3b TTS adapter interface
+- [ ] 3c Hindi and Gujarati voices
+- [ ] 3d Pronunciation dictionary for brand names
+- [ ] 3e Fit the script to the target length
+- [ ] 3f Normalize loudness
+- [ ] 4a Background removal
+- [ ] 4b Mask cleanup: edge smoothing
+- [ ] 4c Crop to product bounds
+- [ ] 4d Upscale low-res products
+- [ ] 4e Support gate: detect or let the user...
+- [ ] 4f Place cutout on a 1080×1920 transparent...
+- [ ] 5a Studio gradient backgrounds
+- [ ] 5b Placement rules: scale
+- [ ] 5c Soft contact shadow and floor reflection
+- [ ] 5d Basic colour and brightness match...
+- [ ] 5e Category-matched backgrounds from Pexels
+- [ ] 5f Generate 3 variants
+- [ ] 6a Slow zoom on a single scene
+- [ ] 6b Pan left/right and up/down
+- [ ] 6c Parallax: product layer and background...
+- [ ] 6d Multiple scenes with transitions
+- [ ] 6e Scene durations driven by the voiceover...
+- [ ] 7a Fonts for Latin
+- [ ] 7b Static overlays: product name
+- [ ] 7c Safe-area rules for Instagram/Shorts UI
+- [ ] 7d faster-whisper word timestamps
+- [ ] 7e Word-by-word animated captions
+- [ ] 7f Closing CTA card
+- [ ] 8a Merge video and voice
+- [ ] 8b Add music with ducking under the voice
+- [ ] 8c Loudness normalize
+- [ ] 8d Export 1080×1920
+- [ ] 8e Phone test and private Instagram upload
+- [ ] 9a Technical checks: resolution
+- [ ] 9b Black and frozen frame detection
+- [ ] 9c Audio checks: loudness range
+- [ ] 9d Product visibility: product occupies at...
+- [ ] 9e Text safe-area and overflow check
+- [ ] 9f Auto-retry once with different settings
+- [ ] 10a Image-to-video adapter interface
+- [ ] 10b One free model on Colab/Kaggle
+- [ ] 10c Product integrity check: compare the...
+- [ ] 10d Fallback to Phase 6 motion on rejection
+- [ ] 10e AI human model holding or using the...
+- [ ] 11a FastAPI app with `POST /generate`...
+- [ ] 11b SQLite job table
+- [ ] 11c Single background worker running the...
+- [ ] 11d `GET /status/{id}` and `GET...
+- [ ] 11e Concurrency test: 5 simultaneous...
+- [ ] 11f Cleanup of old files and failed jobs
+- [ ] 12a Upload form with examples in each field
+- [ ] 12b Progress bar via status polling
+- [ ] 12c Preview and download page
+- [ ] 12d Real-phone and slow-internet test
+- [ ] 12e WhatsApp share button
+- [ ] 13a Recruit 5-10 real sellers
+- [ ] 13b Add tracking: success rate
+- [ ] 13c Run for 2 weeks
+- [ ] 13d Fix the top 3 complaints only
+- [ ] 13e Calculate real cost per video
+- [ ] 14a Swap in paid LLM and TTS through the...
+- [ ] 14b Move to a cheap VPS
+- [ ] 14c Razorpay payments
+- [ ] 14d Pricing from Phase 13 cost data

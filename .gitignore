@@ -1,0 +1,8 @@
+.env
+jobs/
+venv/
+.venv/
+models/
+__pycache__/
+*.mp4
+*.wav

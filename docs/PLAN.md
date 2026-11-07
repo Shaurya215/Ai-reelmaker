@@ -1,6 +1,6 @@
 # PLAN.md — Sub-phase Index
 
-- [ ] 0a Python 3.11
+- [x] 0a Python 3.11
 - [ ] 0b Install FFmpeg
 - [ ] 0c Folder structure
 - [ ] 0d FFmpeg command: 1 image → 5s MP4

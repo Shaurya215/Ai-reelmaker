@@ -1,7 +1,7 @@
 # STATE
 
-- Phase/sub-phase: 0 / 0a (passed) → next: 0b
-- Last passing tag: v0a
-- Last result: venv/ created with python3.11 (deadsnakes PPA), pass check confirmed
-- Next action: read docs/phases/phase-00.md 0b, state plan, wait for "go"
+- Phase/sub-phase: 0 / 0b (passed) → next: 0c
+- Last passing tag: v0b
+- Last result: ffmpeg 6.1.1-3ubuntu5 installed via apt; libx264 and aac encoders confirmed
+- Next action: read docs/phases/phase-00.md 0c, state plan, wait for "go"
 - Open blockers: none

@@ -10,7 +10,7 @@ Python 3.11, FFmpeg, FastAPI, SQLite, Piper TTS, faster-whisper, rembg, Pexels A
 ## Folder structure
 ```
 app/            application code (future)
-providers/      one adapter per stage: synthesize(), generate(), etc.
+pipeline/providers/{llm,tts,visuals,render}/  one adapter per stage: synthesize(), generate(), etc.
 jobs/           per-job working files (gitignored)
 assets/         fonts, backgrounds, music (gitignored content)
 docs/           PLAN_SOURCE.md, PLAN.md, STATE.md, ARCHITECTURE.md, phases/, ISSUES.md, DECISIONS.md, TESTSET.md
@@ -30,7 +30,7 @@ docs/           PLAN_SOURCE.md, PLAN.md, STATE.md, ARCHITECTURE.md, phases/, ISS
 - No long explanations. Report: what changed, how to run it, what to check. Max 10 lines.
 - Never paste full file contents back after editing.
 - If a task needs a big install, a paid API, or more than 3 files changed, ask first.
-- One provider adapter per stage: `synthesize()`, `generate()`, etc. Never call a vendor library outside `providers/`.
+- One provider adapter per stage: `synthesize()`, `generate()`, etc. Never call a vendor library outside `pipeline/providers/`.
 - Never silently delete, rename, overwrite, or move existing files. Inspect before modifying.
 
 ## Commands

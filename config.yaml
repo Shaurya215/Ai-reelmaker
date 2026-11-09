@@ -1,0 +1,14 @@
+providers:
+  llm: gemini_free
+  tts: piper
+  visuals: pexels
+  render: ffmpeg_local
+
+paths:
+  jobs: jobs
+  assets: assets
+  models: models
+
+output:
+  width: 1080
+  height: 1920
